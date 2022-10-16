@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*border: 2px solid black*/
+   /* border: 2px solid black*/
 }
 /*header style*/
 header{
@@ -165,4 +165,65 @@ color: rgb(23, 34, 23);
     border: none;
     padding: 17px 65px 17px 66px;
     border-radius: 30px;
+}
+/* Footer styling*/
+footer{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    height: 300px;
+    gap: 140px;
+    padding-top: 150px;
+}
+.footerlogo img{
+    padding-bottom: 28px;
+}
+.footerleft{
+    padding-left: 80px;
+}
+.location{
+    width: 300px;
+}
+.location p{
+    padding-left: 20px;
+    padding-bottom:20px;
+    font-size: 14px;
+}
+.location img{
+    height: 23px;
+}
+.phone p{
+    padding-left: 20px;
+    padding-bottom:20px;
+    font-size: 14px;
+}
+.phone img{
+    height: 18px;
+}
+.mail p{
+    padding-left: 20px;
+    padding-bottom:20px;
+    font-size: 14px;
+}
+.mail img{
+    height: 18px;
+    width: 16px;
+}
+.footersecondsection{
+    padding-top: 60px;
+    line-height: 2.5;
+    font-size: 15px;
+}
+.footerthirdsection{
+    padding-top: 60px;
+    line-height: 2.5;
+    font-size: 15px;
+}
+.icons{
+    padding-top: 65px;
+}
+.copyright{
+    width: 250px;
+    padding-top:120px;
+    font-size: 10px;
+    color:rgba(255, 255, 255, 0.655);
 }

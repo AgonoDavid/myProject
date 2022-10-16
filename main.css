@@ -62,15 +62,17 @@ color: rgb(23, 34, 23);
     display: flex;
     justify-content: space-between;
     margin-top: 140px;
-    border: 2px solid black;
-    margin: 60px 90px 90px;
-    box-shadow: 0px 0px 0px 6px;
+    margin: 120px 90px 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 .firstsectionleft{
     padding-top: 100px;
     width: 400px;
     padding-left: 90px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 .firstsection h3{
     font-size: 30px;
@@ -83,4 +85,84 @@ color: rgb(23, 34, 23);
     width: 350px;
     padding-right: 90px;
     padding-top: 10px;
+}
+/*secondsection styling*/
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin: 120px 90px 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.secondsection img{
+    width: 350px;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.secondsectionright{
+    padding-top: 80px;
+    width: 400px;
+    padding-right: 90px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+.secondsection h3{
+    font-size: 30px;
+    color: rgb(23, 34, 23)
+}
+.secondsection p{
+    color: rgb(23, 34, 23)
+}
+/*third section styling*/
+.thirdsection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin: 120px 90px 90px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.thirdsectionleft{
+    padding-top: 80px;
+    width: 400px;
+    padding-left: 90px;
+    line-height: 1.7;
+}
+.thirdsection h3{
+    font-size: 30px;
+    color: rgb(23, 34, 23)
+}
+.thirdsection p{
+    color: rgb(23, 34, 23)
+}
+.thirdsection img{
+    width: 350px;
+    padding-right: 90px;
+    padding-top: 10px;
+}
+/*Fourthsection styling*/
+.fourthsection{
+    text-align: center;
+    max-width: 1440px;
+    margin: 20px 350px 20px 350px;
+    line-height: 2;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
+    padding: 50px 10px 50px 10px;
+    border-radius: 15px;
+}
+.fourthsection h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.fourthsection button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    padding: 17px 65px 17px 66px;
+    border-radius: 30px;
 }

@@ -26,33 +26,25 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
-    <link rel="stylesheet" href="responsive.css" />
+
     <link rel="stylesheet" href="main.css" />
     <!-- CSS only -->
     <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
-    <div class="container-fluid header_container">
+    <section class="main-container">
       <header>
-        <nav class="navbar navbar-expand-lg bg-transparent">
-          <div class="container-fluid desk_style_nav">
-            <a class="navbar-brand" href="#"
-              ><img
-                src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo.svg"
-                alt=""
-            /></a>
-            <form class="d-flex" role="search">
-              <button class="btn btn-light nav_button" type="submit">
-                Try it free
-              </button>
-            </form>
-          </div>
+        <nav>
+          <a class="navbar-brand" href="#"
+            ><img
+              src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo.svg"
+              alt=""
+          /></a>
+          <form class="d-flex" role="search">
+            <div class="nav_button">
+              <button type="submit">Try it free</button>
+            </div>
+          </form>
         </nav>
 
         <div class="headbody">
@@ -63,7 +55,9 @@
               but so does your audience. Create connections with your users as
               you engage in genuine discusions.
             </p>
-            <button>Get Started For Free</button>
+            <div class="button_get_started">
+              <button>Get Started For Free</button>
+            </div>
           </div>
           <div class="headbodyright">
             <img
@@ -73,101 +67,145 @@
           </div>
         </div>
       </header>
-    </div>
-    <!-- <main>  
-  <div class="firstsection">
-    <div class="firstsectionleft">
-      <h3>
-        Grow Together
-      </h3>
-      <p>
-        Generate meaningful discusions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out with a feedback form. 
-      </p>
-    </div>
-    <div class="firstsectionright"><img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-grow-together.svg" alt=""></div>
-  </div>
-  <div class="secondsection">
-     <div class="secondsectionleft">
-       <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-flowing-conversation.svg" alt="">
-     </div>
-     <div class="secondsectionright">
-       <h3>
-         Flowing conversations
-       </h3>
-       <p>
-         You Wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
-       </p>
-     </div>
-  </div>
-  <div class="thirdsection">
-    <div class="thirdsectionleft">
-      <h3>
-        Your Users
-      </h3>
-      <p>
-       It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately 
-      </p>
-    </div>
-    <div class="thirdsectionright">
-      <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-your-users.svg" alt="">
-    </div>
-  </div>
-</main>
-<footer>
-  <div class="fourthsection">
-    <h3>
-      Ready To Build Your Community? 
-    </h3>
-    <button>Get Started For Free</button>
-  </div>
-  <div class="footerleft">
-  <div class="footerlogo">
-    <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo copy.svg" alt="">
-    <div>
-    <div class="location" style="display: flex;">
-      <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-location.svg" alt="">
-      <p style="color: rgba(255, 255, 255, 0.655);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores dolorem earum porro suscipit veniam Sint.</p>
-    </div>
-  
-    <div class="phone" style="display: flex;">
-      <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-phone.svg" alt="">
-      <p style="color: rgba(255, 255, 255, 0.655);">+1-543-123-4567</p>
-    </div>
-    <div class="mail" style="display: flex;">
-      <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-email.svg" alt="">
-      <p style="color: rgba(255, 255, 255, 0.655);">example@huddle.com</p>
-    </div>
-    </div>
-  </div>
-  <div>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Agono David</a>.
-    </p>
-  </div>
-</div>
-  <div class="footersecondsection">
-    <p style="color: rgba(255, 255, 255, 0.655);">About Us</p>
-    <p style="color: rgba(255, 255, 255, 0.655);">What We Do</p>
-    <p style="color: rgba(255, 255, 255, 0.655);">FAQ</p>
-  </div>
-  <div class="footerthirdsection">
-    <P style="color: rgba(255, 255, 255, 0.655);">Career</P>
-    <p style="color: rgba(255, 255, 255, 0.655);">Blog</p>
-    <p style="color: rgba(255, 255, 255, 0.655);">Contact Us</p>
-  </div>
-  <div class="icons">
-    <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-facebook-24.png" alt="">
-    <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-twitter-24.png" alt="">
-    <img src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-instagram-24.png" alt="">
-   <div class="copyright"><p> &copy; Copyright 2018 Huddle. All rights reserved.</p></div> 
-  </div>
-</footer> -->
+    </section>
+    <main>
+      <div class="firstsection">
+        <div class="firstsectionleft">
+          <div class="text_style_rd">
+            <h3>Grow Together</h3>
+            <p>
+              Generate meaningful discusions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out with a feedback form.
+            </p>
+          </div>
+        </div>
+        <div class="firstsectionright">
+          <img
+            src="/huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-grow-together.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="secondsection">
+        <div class="secondsectionleft">
+          <img
+            src="/huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-flowing-conversation.svg"
+            alt=""
+          />
+        </div>
+        <div class="secondsectionright">
+          <div class="text_style_rd">
+            <h3>Flowing conversations</h3>
+            <p>
+              You Wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="thirdsection">
+        <div class="thirdsectionleft">
+          <div class="text_style_rd">
+            <h3>Your Users</h3>
+            <p>
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately
+            </p>
+          </div>
+        </div>
+        <div class="thirdsectionright">
+          <img
+            src="/huddle-landing-page-with-alternating-feature-blocks-master/images/illustration-your-users.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_margin">
+        <div class="fourthsection">
+          <h3>Ready To Build Your Community?</h3>
+          <button>Get Started For Free</button>
+        </div>
+        <div class="footerleft">
+          <div class="footerlogo">
+            <img
+              src="/huddle-landing-page-with-alternating-feature-blocks-master/images/logo copy.svg"
+              alt=""
+            />
+            <div>
+              <div class="location" style="display: flex">
+                <img
+                  src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-location.svg"
+                  alt=""
+                />
+                <p style="color: rgba(255, 255, 255, 0.655)">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis maiores dolorem earum porro suscipit veniam Sint.
+                </p>
+              </div>
+
+              <div class="phone" style="display: flex">
+                <img
+                  src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-phone.svg"
+                  alt=""
+                />
+                <p style="color: rgba(255, 255, 255, 0.655)">+1-543-123-4567</p>
+              </div>
+              <div class="mail" style="display: flex">
+                <img
+                  src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icon-email.svg"
+                  alt=""
+                />
+                <p style="color: rgba(255, 255, 255, 0.655)">
+                  example@huddle.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="attribution">
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+              >. Coded by <a href="#">Agono David</a>.
+            </p>
+          </div>
+        </div>
+        <div class="footersecondsection">
+          <p style="color: rgba(255, 255, 255, 0.655)">About Us</p>
+          <p style="color: rgba(255, 255, 255, 0.655)">What We Do</p>
+          <p style="color: rgba(255, 255, 255, 0.655)">FAQ</p>
+        </div>
+        <div class="footerthirdsection">
+          <p style="color: rgba(255, 255, 255, 0.655)">Career</p>
+          <p style="color: rgba(255, 255, 255, 0.655)">Blog</p>
+          <p style="color: rgba(255, 255, 255, 0.655)">Contact Us</p>
+        </div>
+        <div class="icons">
+          <img
+            src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-facebook-24.png"
+            alt=""
+          />
+          <img
+            src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-twitter-24.png"
+            alt=""
+          />
+          <img
+            src="/huddle-landing-page-with-alternating-feature-blocks-master/images/icons8-instagram-24.png"
+            alt=""
+          />
+          <div class="copyright">
+            <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

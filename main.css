@@ -159,9 +159,12 @@ nav {
 .thirdsection p {
   color: rgb(23, 34, 23);
 }
-.thirdsection img {
-  width: 350px;
-  padding-right: 90px;
+.thirdsectionright{
+  width: 100%;
+}
+.thirdsectionright img {
+  width: 100%;
+  /* padding-right: 90px; */
   padding-top: 10px;
 }
 /*Fourthsection styling*/
@@ -264,6 +267,12 @@ footer {
 /* Media query styling for responsive design */
 /* header responsive styling */
 @media (min-width: 350px) and (max-width: 500px) {
+  
+
+ header{
+  background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
+  background-color: none;
+ } 
   nav {
     padding-left: 20px;
     gap: 30px;
@@ -308,9 +317,12 @@ footer {
   .button_get_started {
     text-align: center;
   }
+  .headbodyright {
+    width: 100%;
+  }
   .headbodyright img {
     width: 100%;
-    height: 270px;
+    height: 280px;
   }
   /* mainbody responsive styling */
   main :nth-of-type(odd) {
@@ -368,6 +380,9 @@ footer {
     max-width: 340px;
     margin: auto;
   }
+  .thirdsectionright img{
+    width: 100%;
+  }
   /* footer responsive design */
   .footer_margin {
     flex-direction: column;
@@ -376,18 +391,24 @@ footer {
     margin: auto;
   }
   .fourthsection {
-    bottom: 880px;
+    bottom: 920px;
     position: absolute;
     z-index: 1;
+    width: 100%;
     padding: 0px;
-    max-width: 900px;
-    margin: auto;
-
+    
+    /* max-width: 350px;
+    margin: auto; */
+   /* left: 50%; */
+   /* right: 50%; */
   }
-  .fourthsection h3{
-    font-size: 25px;
+  .fourthsection h3 {
+    font-size: 20px;
   }
-  .fourthsection button{
+  .fourthsection button {
     padding: 9px 30px 9px 30px;
+  }
+  .footerleft{
+    width: 100%;
   }
 }

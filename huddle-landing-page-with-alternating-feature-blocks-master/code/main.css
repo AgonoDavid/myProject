@@ -411,4 +411,15 @@ footer {
   .footerleft{
     width: 100%;
   }
+  footer{
+  width: 100%;
+  }
+  .footer_margin{
+    max-width: 350px;
+    width: 100%;
+  margin: auto;
+ 
+  }
+
+
 }

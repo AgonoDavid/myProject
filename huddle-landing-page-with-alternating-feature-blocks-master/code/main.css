@@ -394,12 +394,12 @@ footer {
     bottom: 920px;
     position: absolute;
     z-index: 1;
-    width: 100%;
-    padding: 0px;
+    width: 80%;
+    padding: 10px;
     
-    /* max-width: 350px;
-    margin: auto; */
-   /* left: 50%; */
+    max-width: 390px;
+    margin: auto;
+   left: 8%;
    /* right: 50%; */
   }
   .fourthsection h3 {

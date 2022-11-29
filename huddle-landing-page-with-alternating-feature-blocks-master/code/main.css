@@ -136,9 +136,10 @@ nav {
 /*third section styling*/
 .thirdsection {
   display: flex;
-  justify-content: space-between;
+ justify-content: space-around;
   max-width: 1000px;
   margin: 90px auto;
+
   /* margin-top: 140px;
   margin: 120px 90px 90px; */
   border-radius: 5px;
@@ -149,7 +150,7 @@ nav {
 .thirdsectionleft {
   padding-top: 80px;
   width: 400px;
-  padding-left: 90px;
+  /* padding-left: 90px; */
   line-height: 1.7;
 }
 .thirdsection h3 {
@@ -159,13 +160,12 @@ nav {
 .thirdsection p {
   color: rgb(23, 34, 23);
 }
-.thirdsectionright{
-  width: 100%;
-}
 .thirdsectionright img {
-  width: 100%;
+  width: 90%;
+  float: right;
   /* padding-right: 90px; */
   padding-top: 10px;
+  height: 320px;
 }
 /*Fourthsection styling*/
 .fourthsection {
@@ -175,7 +175,7 @@ nav {
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.247);
   max-width: 900px;
   margin: auto;
-  padding: 50px 10px 50px 10px;
+  padding: 20px 10px 20px 10px;
   border-radius: 15px;
   position: absolute;
   background-color: white;
@@ -200,6 +200,7 @@ footer {
   /* gap: 140px; */
   /* padding-top: 150px; */
   position: relative;
+  
   margin-top: 250px;
 }
 .footerlogo img {
@@ -267,12 +268,10 @@ footer {
 /* Media query styling for responsive design */
 /* header responsive styling */
 @media (min-width: 350px) and (max-width: 500px) {
-  
-
- header{
-  background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
-  background-color: none;
- } 
+  header {
+    background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg);
+    background-color: none;
+  }
   nav {
     padding-left: 20px;
     gap: 30px;
@@ -321,7 +320,7 @@ footer {
     width: 100%;
   }
   .headbodyright img {
-    width: 100%;
+    width: 70%;
     height: 280px;
   }
   /* mainbody responsive styling */
@@ -380,7 +379,7 @@ footer {
     max-width: 340px;
     margin: auto;
   }
-  .thirdsectionright img{
+  .thirdsectionright img {
     width: 100%;
   }
   /* footer responsive design */
@@ -396,11 +395,11 @@ footer {
     z-index: 1;
     width: 80%;
     padding: 10px;
-    
+
     max-width: 390px;
     margin: auto;
-   left: 8%;
-   /* right: 50%; */
+    left: 8%;
+    /* right: 50%; */
   }
   .fourthsection h3 {
     font-size: 20px;
@@ -408,18 +407,15 @@ footer {
   .fourthsection button {
     padding: 9px 30px 9px 30px;
   }
-  .footerleft{
+  .footerleft {
     width: 100%;
   }
-  footer{
-  width: 100%;
+  footer {
+    width: 100%;
   }
-  .footer_margin{
+  .footer_margin {
     max-width: 350px;
     width: 100%;
-  margin: auto;
- 
+    margin: auto;
   }
-
-
 }
